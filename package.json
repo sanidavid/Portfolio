@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.80.4"
+  },
+  "name": "portfolio-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile": "sass style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
