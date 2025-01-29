@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid">
+      <img class="ms-lg-5 logo-main" src="/asset/logo.png" width="60px">
+      
+      <!-- Toggle button for small screens -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Offcanvas menu, only visible on smaller screens -->
+      <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav gap-5 d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="/html/index.html"><img src="/asset/icons8-home-24.png">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/services.html"><img src="/asset/icons8-service-24.png"> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/about.html"><img src="/asset/icons8-about-24.png"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/designs.html"><img src="/asset/icons8-portfolio-24.png"> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#client"><img src="/asset/icons8-testimony-24.png"> Testimonies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#faq"><img src="/asset/icons8-faq-24.png"> FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/Blog/blog-main.html"><img src="/asset/icons8-faq-24.png"> Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/contact.html"><img src="/asset/icons8-contact-24.png"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Navbar links for larger screens, original collapse behavior retained -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class=" logo" src="/asset/logo.png" width="60px">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#client">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/Blog/blog-main.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+      
+      <!-- Navbar links for larger screens, original collapse behavior retained -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#servicess">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class="logo" src="/asset/logo.png" width="60px">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#client">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="padding-top: 120px;">
+    <div class="blog-title">
+      <h3 class="fw-bold fs-1">TOP 7 WEB DESIGN TRENDS FOR 2025: STAY AHEAD OF THE CURVE</h3>
+      <p style="font-weight: 600;">Website</p>
+      <p style="font-weight: 600;">by Justdavid090@gmail.com</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+          <p>In 2025, the digital landscape is evolving rapidly, and web design trends are no exception. Staying ahead of the curve is vital for businesses and creators who want to remain competitive and deliver a user experience that captivates their audience. Let’s explore the top seven web design trends shaping the digital realm in 2025.</p>
+
+          <h3>1. AI-Powered Personalization</h3>
+          <p>Artificial intelligence continues to revolutionize web design by offering hyper-personalized user experiences. Websites now adapt in real-time based on user behavior, preferences, and context.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Dynamic Content Adaptation:</strong> Websites can modify displayed content, recommendations, and layouts to suit individual user preferences.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Voice Interaction:</strong> Integration with AI voice assistants like Siri or Google Assistant for seamless navigation.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Predictive Analytics:</strong>  Sites anticipate user needs and offer relevant suggestions or shortcuts.</p>
+          <h5>Why It Matters:</h5>
+          <p>Personalized experiences lead to higher engagement rates, better customer retention, and improved satisfaction.</p>
+          <!-- SECOND -->
+          <h3>2. Immersive 3D Elements</h3>
+          <p>3D design is no longer just for gaming or entertainment; it has become a major player in web design, creating engaging and interactive experiences.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Product Visualization:</strong> Businesses showcase their products in 3D, allowing users to explore from every angle.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Interactive Effects:</strong> Animations and transitions that add depth to the browsing experience.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>VR Integration:</strong>   Virtual reality components enhance interactivity, particularly in real estate, e-commerce, and education.</p>
+          <h5>Why It Matters:</h5>
+          <p>3D design grabs attention and keeps users engaged longer, which can lead to higher conversion rates.</p>
+          <!-- THIRD -->
+          <h3>3. Dark Mode Evolution</h3>
+          <p>Dark mode has been around for a while, but in 2025, it’s evolving with smarter implementations and a focus on user well-being.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Auto-Adaptive Themes:</strong> Websites shift between light and dark modes based on user device settings or time of day.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Improved Contrast Ratios:</strong> Enhanced readability without straining the eyes.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Energy Efficiency:</strong> Darker designs consume less power, especially on OLED screens.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>Dark mode isn't just a design choice, it's a user-centric feature that prioritizes accessibility and comfort.
+          </p>
+          <!-- FOURTH -->
+          <h3>4. Minimalist Design with Maximal Impact</h3>
+          <p>Less is truly more in 2025. Minimalist design focuses on simplicity but with striking visual elements.
+          </p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Bold Typography:</strong> Large, impactful fonts communicate messages clearly and attractively.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Negative Space:</strong> Clean, uncluttered layouts that emphasize content.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Micro-Interactions:</strong>  Subtle animations that guide the user and provide feedback.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>Minimalist designs load faster, reduce cognitive load, and direct attention to what truly matters—your content or call to action.
+          </p>
+          <!-- FIFTH -->
+          <h3>5. Augmented Reality (AR) Integration</h3>
+          <p>AR is transforming the way users interact with websites, particularly in e-commerce and education.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Try-Before-You-Buy Experiences:</strong>  Virtual fitting rooms for fashion, furniture placement previews for home décor, and more.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Interactive Learning:</strong> AR-enhanced tutorials and visualizations in education and training.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Gamification:</strong>  Incorporating AR games to boost user engagement.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>AR bridges the gap between the physical and digital worlds, making online experiences more tangible and memorable.
+          </p>
+          <!-- SIXTH -->
+          <h3>6. Focus on Accessibility and Inclusivity</h3>
+          <p>Websites are becoming more inclusive, ensuring they are usable by everyone, regardless of ability.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Voice Navigation:</strong> Tools for those with visual impairments.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Keyboard-Only Navigation:</strong> Better usability for individuals with mobility challenges.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>WCAG Compliance:</strong> Adhering to the Web Content Accessibility Guidelines (WCAG) for broader accessibility.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>An accessible website broadens your audience, improves SEO, and fosters brand loyalty by showing you care about inclusivity.
+          </p>
+          <!-- SEVENTH -->
+          <h3>7. Sustainability in Design</h3>
+          <p>With the global emphasis on sustainability, web design is following suit by adopting eco-friendly practices.
+          </p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Low-Impact Hosting:</strong> Using green web hosts that rely on renewable energy.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Optimized Coding:</strong> Lightweight designs that require less energy to load.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Eco-Friendly Visuals:</strong> DUsing minimalist visuals to reduce data transfer requirements.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>Sustainability is not just a trend but a responsibility. Users are more likely to support businesses that align with their eco-conscious values.
+          </p>
+
+          <div class="container text-center py-4" style="margin: auto !important;">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link text-dark" href="#" style="pointer-events: none; cursor: default;">Previous</a>
+                </li>
+                <li class="page-item ">
+                  <a class="page-link text-dark pagination-color" href="/html/Blog/top-7-web-design-trends.html">1</a>
+                </li>
+                <li class="page-item" aria-current="page">
+                  <a class="page-link text-dark" href="/html/Blog/the-basis-of-responsive-design.html">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/Daily-coding-tutotrials.html">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/from-ideas-to-launch.html">4</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/how-to-choose-the-right-color.html">5</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/mastering-the-art-of-typography.html">6</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/the-ultimate-guide-to-building-websites.html">7</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/common-web-development-mistakes.html">8</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/the-basis-of-responsive-design.html">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>     
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-right">
+          <h4 class="mb-4">More Valuable Resources</h4>
+          <a href="/html/Blog/the-basis-of-responsive-design.html">
+    <img src="/asset/blogg (3).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">The Basics of Responsive Web Design: Why it's Non-Negotiable in <span id="currentYear"></span></p>
+            <p class="fw-light blog-date text-dark">Design/Jan 12, 2025</p>
+          </a>
+
+          <a href="/html/Blog/Daily-coding-tutotrials.html">
+            <img src="/asset/blogg (1).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+              <p class="fw-bold text-dark">Daily Coding Tutorials: Learn Web Development One Day At a Time!</p>
+              <p class="fw-light blog-date text-dark">Design / Jan 17, <span id="currentYear">2025</span></p>
+            </a>
+           
+            <a href="/html/Blog/from-ideas-to-launch.html">
+          <img src="/asset/blogg (4).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">From Idea to Launch: My Web Design Process Explained</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 20, <span id="currentYear">2025</span></p>
+          </a>
+            
+            <a href="/html/Blog/how-to-choose-the-right-color.html">
+            <img src="/asset/blogg(new) (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">How To Choose The Right Color Palette For Your Website</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 24, <span id="currentYear">2025</span></p>
+          </a>
+     
+            <a href="/html/Blog/mastering-the-art-of-typography.html">
+          <img src="/asset/blogg(new) (1).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">Mastering The Art Of Typography In Web Design</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 26, <span id="currentYear">2025</p>
+            </a>
+          
+            <a href="/html/Blog/the-ultimate-guide-to-building-websites.html">
+          <img src="/asset/blogg (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">The Ultimate Guide in Building Websites</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 29, <span id="currentYear">2025</span></p>
+          </a>
+          
+            <a href="/html/Blog/common-web-development-mistakes.html">
+          <img src="/asset/blogg (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">Common Web Development Mistake And How To Avoid Them</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 29, <span id="currentYear">2025</span></p>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer text-dark pt-5">
+    <div class="container">
+      <div class="row">
+        <!-- About Us -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">About Us</h5>
+          <p class="small">
+            We are a creative agency that offers digital solutions for
+            businesses that want to impact the digital age, build awareness of
+            their products or services, and increase their business income. We
+            are specialized in Web Design, App Development, SEO, Branding,
+            Digital Marketing.
+          </p>
+        </div>
+  
+        <!-- Contact Us -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class='bx bx-phone' style="color: #e67e22;"></i> +234 903 9977 439
+            </li>
+            <li class="mb-2">
+              <i class='bx bx-envelope' style="color: #e67e22;"></i>
+              justdavid090@gmail.com
+            </li>
+            <li>
+              <i class='bx bx-current-location' style="color: #e67e22;"></i> Abuja, Nigeria
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Hours of Operation -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Hours of Operation</h5>
+          <p class="small">
+            Monday to Friday<br />
+            <strong>8:30 AM – 6 PM</strong>
+          </p>
+          <p class="small">
+            Saturday to Sunday<br />
+            <strong>9:30 AM – 6 PM</strong>
+          </p>
+        </div>
+  
+        <!-- Policy -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Policy</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-dot text-red"></i> Terms and Conditions
+            </li>
+            <li>
+              <i class="bi bi-dot text-red"></i> Privacy Policy
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Bottom Links -->
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Web & App Development</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Mobile APP development</li>
+            <li><img src="/asset/icons8-dot-16.png"> Business website</li>
+            <li><img src="/asset/icons8-dot-16.png"> e-Commerce website</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">SEO Services</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> SEO services</li>
+            <li><img src="/asset/icons8-dot-16.png"> Local SEO services</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Digital Advertising</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Digital Marketing</li>
+            <li><img src="/asset/icons8-dot-16.png"> Social Media Management</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Other Links</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Website Design Trinidad</li>
+            <li><img src="/asset/icons8-dot-16.png"> eCommerce Website Trinidad</li>
+            <li><img src="/asset/icons8-dot-16.png"> Mobile App Development</li>
+          </ul>
+        </div>
+      </div>
+  
+      <hr class="text-white">
+      <div class="container d-flex align-items-center justify-content-between last">
+        <div class="copyright">
+            <p class="fs-6">@ <span id="currentYear">2024</span> All Rights Reserved By Justdavid</p>
+        </div>
+        <br>
+        <div class="contact-info mt-5" style="font-family: monospace;">
+            <h5 class="fw-bold">Follow Us </h5>
+            <div class="social-icons mt-4">
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-youtube'></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-instagram-alt' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class="fa-brands fa-x-twitter" style="color: white;"></i></a>
+              <a href="#" class="me-2 text-white fs-3" style="color: white !important;"><i class='bx bxl-tiktok' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-linkedin' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6781aa62af5bfec1dbe9f5d0/1ih9834o8';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<script src="/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

@@ -2,10 +2,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/**
- * Bootstrap "Journal code" icon
- * @link https://icons.getbootstrap.com/icons/journal-code/
- */
+
 .bd-heading a::before {
   display: inline-block;
   width: 1em;

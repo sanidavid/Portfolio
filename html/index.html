@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Portfolio</title>
+    <link rel="icon" href="/asset/logggo.jpg" type="image/x-icon">
+    <title>Justdavid</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container-fluid">
-      <img class=" logo" src="/asset/logo.png" width="90px">
+      <img class="ms-lg-5 logo-main" src="/asset/logo.png" width="60px">
       
       <!-- Toggle button for small screens -->
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -27,44 +29,50 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav gap-5 d-flex align-items-center">
             <li class="nav-item">
-              <a class="nav-link active text-dark" aria-current="page" href="#header">Home</a>
+              <a class="nav-link active text-dark" aria-current="page" href="index.html"><img src="/asset/icons8-home-24.png">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#servicess">Services</a>
+              <a class="nav-link text-dark" href="/html/services.html"><img src="/asset/icons8-service-24.png"> Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#about">About</a>
+              <a class="nav-link text-dark" href="/html/about.html"><img src="/asset/icons8-about-24.png"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+              <a class="nav-link text-dark" href="/html/designs.html"><img src="/asset/icons8-portfolio-24.png"> Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#client">Testimonies</a>
+              <a class="nav-link text-dark" href="#client"><img src="/asset/icons8-testimony-24.png"> Testimonies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#faq">FAQs</a>
+              <a class="nav-link text-dark" href="#faq"><img src="/asset/icons8-faq-24.png"> FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn bg-dark text-white btn-sm reach rounded-5 text-center" href="#contact-1">Reach Out</a>
+              <a class="nav-link text-dark" href="/html/Blog/blog-main.html"><img src="/asset/icons8-faq-24.png"> Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/contact.html"><img src="/asset/icons8-contact-24.png"> Contact</a>
             </li>
           </ul>
         </div>
       </div>
       
       <!-- Navbar links for larger screens, original collapse behavior retained -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav gap-5 d-flex align-items-center">
           <li class="nav-item">
-            <a class="nav-link active text-dark" aria-current="page" href="#header">Home</a>
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#servicess">Services</a>
+            <a class="nav-link text-dark" href="/html/services.html">Services <i class='bx bx-chevron-down'></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#about">About</a>
+            <a class="nav-link text-dark" href="/html/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class=" logo" src="/asset/logo.png" width="60px">
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="#client">Testimonies</a>
@@ -73,25 +81,143 @@
             <a class="nav-link text-dark" href="#faq">FAQs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn bg-dark text-white btn-sm reach rounded-5 text-center" href="#contact-1">Reach Out</a>
+            <a class="nav-link text-dark" href="/html/Blog/blog-main.html">Blog</a>
           </li>
-               
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>
+           
         </ul>
       </div>
     </div>
   </nav>
-  
-  
+    
+      
+      <!-- Navbar links for larger screens, original collapse behavior retained -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="service-hover" href="/html/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class=" logo" src="/asset/logo.png" width="60px">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#client">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="service-home">
+    <div class="container-fluid" style="background-color: rgb(236, 234, 234); min-height: 400px;">
+      <div class="services-box">
+        <div class="row align-items-center justify-content-center d-flex" style="padding-top: 110px;">
+          <div class="col-md-3">
+            <div class="service-content">
+              <div class="service-innercontent pt-4">
+                <div class="service-semiheader">
+                  <h5 class="brand-color">WEB & APP DEVELOPMENT</h5>
+                  <p>Bring your business online</p>
+                </div>
+                 <div class="line"></div>
+                <ul>
+                  <li><a href="#" class="brand-color">Mobile App development</a></li>
+                  <li><a href="#" class="brand-color">Business Website</a></li>
+                  <li><a href="#" class="brand-color">E-commerce Website</a></li>
+                  <li><a href="#" class="brand-color">Online Academy</a></li>
+                  <li><a href="#" class="brand-color">Web Maintenance</a></li>
+                </ul>
+              </div>
+            </div>
+              </div>
+          <div class="col-md-3">
+            <div class="service-content">
+              <div class="service-innercontent pt-4">
+                <div class="service-semiheader">
+                <h5 class="brand-color">ORGANIC SEARCH</h5>
+                <p>Drive more leads</p>
+                </div>
+                <div class="line"></div>
+                <ul>
+                  <li><a href="#" class="brand-color">SEO Services</a></li>
+                  <li><a href="#" class="brand-color">Local SEO Services</a></li>
+                </ul>
+              </div>
+            </div>
+              </div>
+          <div class="col-md-3">
+            <div class="service-content">
+              <div class="service-innercontent pt-4">
+                <div class="service-semiheader">
+                <h5 class="brand-color">DIGITAL ADVERTISING</h5>
+                <p>Accelerate your revenue</p>
+                </div>
+                <div class="line"></div>
+                <ul>
+                  <li><a href="#" class="brand-color">Digital Marketing</a></li>
+                  <li><a href="#" class="brand-color">Social Media Management</a></li>
+                </ul>
+              </div>
+            </div>
+              </div>
+          <div class="col-md-3">
+            <div class="service-content">
+              <div class="service-innercontent pt-4">
+                <div class="service-semiheader">
+                <h5 class="brand-color">BRANDING SERVICES</h5>
+                <p>Impact people's conscience</p>
+                </div>
+                <div class="line"></div>
+                <ul>
+                  <li><a href="#" class="brand-color">Branding Services</a></li>
+                </ul>
+              </div>
+            </div>
+              </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
             <section id="header">
                 <div class="container">
                     <div class="content-text text-center">
-                        <p>👑 My name is David and I am a freelancer</p>
-                        <h2>WEBDESIGNER<br>&<br><span> DEVELOPER</span></h2>
+                        <!-- <p class="text-center">Just David</p> -->
+                        <div class="typewriter">
+                          <h2>
+                            WEBDESIGNER<br>&<br><span>DEVELOPER</span>
+                          </h2>
+                        </div>                                           
                     <div class="buttons">
-                        <button class="btn design btn-sm text-white">You need a designer</button>
-                        <button class="btn bg-transparent btn-sm btn-outline-dark">You need a developer</button>
-                    </div>
+                      <a href="/html/contact.html">
+                        <button class="btn design btn-sm text-white seo-fb ">You need a designer</button></a>
+                        <a href="/html/designs.html">
+                        <button class="btn bg-transparent text-dark btn-sm btn-outline-dark seo-sb">You need a developer</button>
+                      </div>
+                      <div class="arrow-down pt-5">
+                        <a href= "#profile-section"><img src="/asset/icons8-arrow-down-66.png"></a>
+                      </div>
                     </div>
                 </div>
             </section>
@@ -101,35 +227,35 @@
                 <div class="row">
                   <div class="col-md-4 pt-4">
                     <div class="card p-4 shadow-sm education">
-                      <h3>Education</h3>
-                      <p><strong>2013 - 2017</strong></p>
-                      <h5>Bachelor in Engineering in computer communication</h5>
-                      <p>Bachelor in Engineering in computer science</p>
-                      <p><strong>2018 - 2021</strong></p>
-                      <h5>Masters in web development and design</h5>
-                      <p> California Institute of Technology (Caltech)</p>
+                      <h3 class="text-white">Education</h3>
+                      <p class="text-white"><strong>2013 - 2017</strong></p>
+                      <h5 class="text-white">Bachelor in Engineering in computer communication</h5>
+                      <p class="text-white">Bachelor in Engineering in computer science</p>
+                      <p class="text-white"><strong>2018 - 2021</strong></p>
+                      <h5 class="text-white">Masters in web development</h5>
+                      <p class="text-white">  Institute of Technology (Caltech)</p>
                     </div>
                   </div>
                   <div class="col-md-4 pt-4">
                     <div class="card p-4 shadow-sm experiences">
                       <h3>Experiences</h3>
                       <p><strong>2021 - 2023</strong></p>
-                      <h5>Creative Agency Inc.: Head of Designing team</h5>
+                      <h5>Creative Agency: Head of Designing team</h5>
                       <p>Guiding team based on projects demands and applications</p>
                       <p><strong>2023 - present</strong></p>
                       <h5>Studio Alpha: Senior developer</h5>
-                      <p>Carnegie institution, Lagos, Nigeria</p>
+                      <p>Litin institution, Lagos, Nigeria</p>
                     </div>
                   </div>
                   <div class="col-md-4 pt-4">
                     <div class="card p-4 shadow-sm interests">
-                      <h3>Interests</h3>
-                      <p><strong>2023 - present</strong></p>
-                      <h5>Bachelor in Engineering in Information Technology</h5>
-                      <p>Bachelor in Engineering in Information Technology</p>
-                      <p><strong>2023 - present</strong></p>
-                      <h5>Masters in Data Analysis</h5>
-                      <p>Tech Innovation School, Abuja, Nigeria</p>
+                      <h3 class="text-white">Interests</h3>
+                      <p class="text-white"><strong>2023 - present</strong></p>
+                      <h5 class="text-white">Bachelor in Engineering in Information Technology</h5>
+                      <p class="text-white">Bachelor in Engineering in Information Technology</p>
+                      <p class="text-white"><strong>2023 - present</strong></p>
+                      <h5 class="text-white">Masters in Data Analysis</h5>
+                      <p class="text-white">Tech Innovation School, Abuja, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -144,39 +270,45 @@
                 <div class="row mt-4">
                   <!-- Service Item 1 -->
                   <div class="col-md-3 service-item">
-                    <div class="icon mb-3">
-                      <img src="/asset/icons8-website-design-66.png" width="100px">
+                    <div class="service-body">
+                      <div class="icon mb-3">
+                        <img src="/asset/icons8-web-design-66 (1).png" width="100px">
+                      </div>
+                      <h3 class="service-title">Website Design</h3>
+                      <p>Creating visually appealing and responsive website layouts with user-friendly interfaces and modern designs to enhance user experience.
+                      </p>
                     </div>
-                    <h3 class="service-title">Website Design</h3>
-                    <p>We design visually appealing and user-friendly websites that leave a lasting impression.
-                    </p>
                   </div>
                   <!-- Service Item 2 -->
                   <div class="col-md-3 service-item">
-                    <div class="icon mb-3">
-                      <img src="/asset/icons8-website-66.png" width="100px">
+                    <div class="service-body">
+                      <div class="icon mb-3">
+                        <img src="/asset/icons8-web-development-66.png" width="100px">
+                      </div>
+                      <h3 class="service-title">Website Development</h3>
+                      <p> Building fully functional websites with clean code, fast load times, scalability, and compatibility across all devices and browsers.</p>
                     </div>
-                    <h3 class="service-title">Website Development</h3>
-                    <p> We build high-performance websites that can handle increasing traffic.</p>
-                  </div>
+                    </div>
                   <!-- Service Item 3 -->
                   <div class="col-md-3 service-item">
-                    <div class="icon mb-3">
-                      <img src="/asset/icons8-mobile-development-66.png" width="100px">
+                    <div class="service-body">
+                      <div class="icon mb-3">
+                        <img src="/asset/icons8-app-store-66.png" width="100px">
+                      </div>
+                      <h3 class="service-title">Mobile App Development</h3>
+                      <p>Developing mobile applications for Android and iOS platforms with smooth performance, attractive design, and user-focused features.</p>
                     </div>
-                    <h3 class="service-title">Mobile App Development</h3>
-                    <p>We create engaging mobile apps for both iOS and Android platforms.</p>
                   </div>
                   <!-- Service Item 4 -->
                   <div class="col-md-3 service-item">
-                    <div class="icon mb-3">
-                      <img src="/asset/icons8-logo-design-66.png" width="105px">
+                    <div class="service-body">
+                      <div class="icon mb-3">
+                        <img src="/asset/icons8-branding-66.png" width="105px">
+                      </div>
+                      <h3 class="service-title">Branding</h3>
+                      <p>Designing logos, brand identities, and marketing materials that reflect your clients' values and help their businesses stand out.</p>
                     </div>
-                    <h3 class="service-title">Logo Design</h3>
-                    <p>We develop a comprehensive brand identity, including color palettes and typography.</p>
                   </div>
-                </div>
-              </div>
             </section>
             
             <section id="about" class="about-section">
@@ -191,104 +323,267 @@
 
                            <h4>My Skillset:</h4> 
                             
-                            <p><strong>Front-End development:</strong> HTML, CSS, JavaScript, React</p>
+                            <p><strong>Front-End development:</strong> HTML, CSS, JavaScript</p>
                             <p><strong>Back-End Development:</strong> Python, Node.js, Database Design and Management</p> 
-                            <p><strong>Mobile App Development:</strong> React Native, Flutter</p>
+                            <p><strong>Mobile App Development:</strong> Flutter</p>
                             <p><strong>UI/UX Design:</strong> Creating intuitive and visually appealing user interfaces</p>
-                            <p><strong>Frameworks:</strong> Bootstrap 5, SCSS</p>
+                            <p><strong>Frameworks:</strong> React Js, Bootstrap 5, SCSS</p>
                             <p><strong>Problem-Solving and Critical Thinking:</strong> Identifying and resolving complex technical challenges</p>
                             I'm excited to collaborate with clients to bring their ideas to life. Let's build something amazing together!</p>
-                          <button type="button" class="btn btn-primary ">Contact</button>
+                            <a href="/html/contact.html">
+                              <button class="btn-12"><span>Portfolio</span></button>
+                              </a>
                       </div>
                   </div>
               </div>
           </section>
 
-            <section class="statss">
-              <div class="container-fluid my-lg-5">
-               <!-- <h3 class = " text-center" >Achievements</h3> -->
-                <div class="row text-center justify-content-center stats-section">
-                  <div class="col-md-5 stat">
-                    <h1 class="stat-number counter" data-target="123">0</h1>
-                    <p class="stat-title">Happy Customers</p>
-                    <p class="stat-description">
-                      Our commitment to excellence ensures that every client is delighted with the final product.
+          <section class="statss">
+            <div class="container-fluid my-lg-5">
+              <div class="row text-center justify-content-center stats-section">
+                <div class="col-md-5 stat hov" style="height: 220px;">
+                  <h1 class="stat-number counter" data-target="123">0</h1>
+                  <p class="stat-title">Happy Customers</p>
+                  <p class="stat-description text-dark">
+                    Our commitment to excellence ensures that every client is delighted with the final product.
+                  </p>
+                </div>
+                <div class="col-md-5 stat hov" style="height: 220px;">
+                  <h1 class="stat-number counter" data-target="150">0</h1>
+                  <p class="stat-title">Projects Completed</p>
+                  <p class="stat-description text-dark">
+                    From small business websites to large-scale enterprise applications, we've successfully delivered projects across various industries.
+                  </p>
+                </div>
+                <div class="col-md-5 stat hov" style="height: 220px;">
+                  <h1 class="stat-number counter" data-target="30">0</h1>
+                  <p class="stat-title">Awards Won</p>
+                  <p class="stat-description text-dark">
+                    We've received accolades for our innovative solutions and cutting-edge technologies.
+                  </p>
+                </div>
+                <div class="col-md-5 stat mb-5 hov" style="height: 220px;">
+                  <h1 class="stat-number counter" data-target="300">0</h1>
+                  <p class="stat-title">Proven Track Records</p>
+                  <p class="stat-description text-dark">
+                    With a strong track record of success, we're confident in our ability to deliver exceptional results. Let's work together to bring your vision to life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- WHy choose us -->
+          <section class="business-growth">
+            <div class="container py-5">
+              <div class="row">
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                  <p class="text-uppercase text-red fw-bold">Business Growth</p>
+                  <h1 class="display-4 fw-bold mb-4">
+                    How David Web Design Creates Business Growth
+                  </h1>
+                  <div class="content">
+                    <h5 class="fw-bold mb-2">Increasing traffic</h5>
+                    <p class="text-muted">
+                      Our marketing team partners with you to identify your target
+                      market and go to work by providing comprehensive digital
+                      marketing services.
                     </p>
-                  </div>
-                  <div class="col-md-5 stat">
-                    <h1 class="stat-number counter" data-target="150">0</h1>
-                    <p class="stat-title">Projects Completed</p>
-                    <p class="stat-description">
-                      From small business websites to large-scale enterprise applications, we've successfully delivered projects across various industries.
+                    <h5 class="fw-bold mb-2">Powerful advertising</h5>
+                    <p class="text-muted">
+                      Our marketing team crafts PPC, display, geotargeted and
+                      remarketing campaigns engineered for success. Experience results
+                      from digital advertising that have a real impact on the bottom
+                      line.
                     </p>
-                  </div>
-                  <div class="col-md-5 stat">
-                    <h1 class="stat-number counter" data-target="30">0</h1>
-                    <p class="stat-title">Awards Won</p>
-                    <p class="stat-description">
-                      We've received accolades for our innovative solutions and cutting-edge technologies.
+                    <h5 class="fw-bold mb-2">Website design that dazzles!</h5>
+                    <p class="text-muted">
+                      The
+                    
+                      interactive team lays the creative groundwork for your website.
                     </p>
-                  </div>
-                  <div class="col-md-5 stat mb-5">
-                    <h1 class="stat-number counter" data-target="300"></h1>
-                    <p class="stat-title">Proven Track Records</p>
-                    <p class="stat-description">
-                      With a strong track record of success, we're confident in our ability to deliver exceptional results. Let's work together to bring your vision to life.
+                    <h5 class="fw-bold mb-2">Expanding your commercial reach</h5>
+                    <p class="text-muted">
+                      Our social media team are experts in creating and executing a social media management plan that gets the right message in front of your desired audience..
                     </p>
                   </div>
                 </div>
+                <!-- Right Image -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                  <div class="position-relative">
+                    <img
+                      src="/asset/growth.png"
+                      alt="Laptop and graphs"
+                      class="img-fluid main-image"
+                    />
+                    <!-- Overlay Elements -->
+                    <div class="data-overlay position-absolute clicks-box">
+                      <div class="box">
+                        <p class="fw-bold">Total clicks</p>
+                        <h4 class="fw-bold">26.6K</h4>
+                      </div>
+                    </div>
+                    <div class="data-overlay position-absolute ctr-box">
+                      <div class="box">
+                        <p class="fw-bold">Avrg CTR</p>
+                        <h4 class="fw-bold">4%</h4>
+                      </div>
+                    </div>
+                    <!-- Decorative Elements -->
+                    <div class="chart-icon position-absolute"></div>
+                    <div class="target-icon position-absolute"></div>
+                  </div>
+                </div>
               </div>
-            </section>
+            </div>
+          </section>
+          
+          <!-- Business partners section -->
+          <section class="business-partner py-5">
+            <div class="container">
+              <div class="row align-items-center">
+                <!-- Left Content with Image -->
+                <div class="col-md-6 position-relative">
+                <img class="img-fluid" src="/asset/partners.png" alt="Business Partners">
+                </div>
+                <!-- Right Content -->
+                <div class="col-md-6 text-content">
+                  <p class="text-uppercase text-red fw-bold mb-2">Relationship</p>
+                  <h1 class="fw-bold mb-4">
+                    <span class="text-red">We’re Your Business Partner</span>
+                  </h1>
+                  <p class="text-muted">
+                    We believe in building partnerships, not customer acquisition.
+                    Above everything, all we do comes from a business owner’s point of
+                    view, and we treat your organization as ours. Our processes, our
+                    prices, and our deliverables are clear to us. For the better part?
+                    You get the peace of mind that we will bend backwards in order to
+                    do whatever it takes to expand your business.
+                  </p>
+                  <a href="/html/contact.html">
+                  <button class="btn-12"><span>Reach Us</span></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End of business section -->
+
+          <!-- Why choose us -->
+          <section class="why-choose-us py-5">
+            <div class="container">
+              <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-md-6">
+                  <p class="text-uppercase text-red fw-bold mb-2">Why</p>
+                  <h1 class="fw-bold text-red mb-4">Why Choose Us?</h1>
+                  <p class="text-muted">
+                    All of our services are focused especially for companies that are
+                    looking to develop a strong online presence and also make their
+                    businesses stand out online. Also, all-in-one is our philosophy to
+                    make the lives of business owners simpler, it is for this reason
+                    that we offer a wide variety of services that complement each
+                    other such as the creation of Branding, Web Design, Digital
+                    Marketing, and SEO.
+                  </p>
+                </div>
+                <!-- Right Image -->
+                <div class="col-md-6 text-center">
+                  <img
+                    src="/asset//depiction-human-brain-intellect-as-lightbulb-removebg-preview.png"
+                    alt="Red Lightbulb"
+                    class="img-fluid custom-lightbulb"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>      
+          <!-- End  -->
 
             <section class="recent-works-section py-5" id="portfolio">
               <div class="container">
                 <div class="text-center mb-5">
-                  <h5 class="text-uppercase">Recent Works</h5>
-                  <h1>Here are some of the projects I have done lately. Feel free to check them out.</h1>
+                  <h2 class="text-uppercase">Recent Works</h2>
+                  <p>Here are some of the projects I have done lately. Feel free to check them out.</p>
                 </div>
                 <div class="row">
                   <div class="col-md-6 mb-4">
+                    <a href="https://hairsalon11.netlify.app">
                     <div class="card work-card">
-                      <img src="/asset/work (5).png" class="card-img-top img-fluid" alt="Retro Camera">
-                      <div class="card-body">
-                        <p class="work-type">Website</p>
-                        <h3 class="work-title">E-commerce Furniture</h3>
-                        <a href="#" class="stretched-link"></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card work-card">
-                      <img src="/asset/new (2).png" class="card-img-top img-fluid" alt="Retro Camera">
-                      <div class="card-body">
-                        <p class="work-type">Website</p>
-                        <h3 class="work-title">E-commerce Products</h3>
-                        <a href="#" class="stretched-link"></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card work-card">
-                      <img src="/asset/new (1).png" class="card-img-top img-fluid" alt="Retro Camera">
-                      <div class="card-body">
-                        <p class="work-type">Website</p>
-                        <h3 class="work-title">Portfolio</h3>
-                        <a href="#" class="stretched-link"></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card work-card">
-                      <img src="/asset/new (3).png" class="card-img-top img-fluid" alt="The White Lamp">
+                      <img src="/can/hair.png" class="card-img-top img-fluid" alt="The White Lamp">
                       <div class="card-body">
                         <p class="work-type">Product Design</p>
                         <h3 class="work-title">Hair Salon</h3>
-                        <a href="#" class="stretched-link"></a>
+                        <!-- <a href="#" class="stretched-link"></a> -->
                       </div>
+                    </div>
+                  </a>
+                  </div>
+                 
+                  <div class="col-md-6 mb-4">
+                    <a href="https://ministore11.netlify.app/">
+                    <div class="card work-card">
+                      <img src="/can/product commerce.png" class="card-img-top img-fluid" alt="Retro Camera">
+                      <div class="card-body">
+                        <p class="work-type">Website</p>
+                        <h3 class="work-title">E-commerce Products</h3>
+                        <!-- <a href="#" class="stretched-link"></a>  https://ministore11.netlify.app/-->
+                      </div>
+                    </div>
+                    </div>
+                  </a>
+                  <div class="col-md-6 mb-4">
+                    <div class="card work-card">
+                      <a href="https://jj11.netlify.app">
+                      <img src="/can/hannon.png" class="card-img-top img-fluid" alt="Retro Camera">
+                      <div class="card-body">
+                        <p class="work-type">Website</p>
+                        <h3 class="work-title">Portfolio</h3>
+                        <!-- <a href="#" class="stretched-link"></a> -->
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <a href="https://furniture10.netlify.app">
+                    <div class="card work-card">
+                      <img src="/can/furniture.png" class="card-img-top img-fluid" alt="Retro Camera">
+                      <div class="card-body">
+                        <p class="work-type">Website</p>
+                        <h3 class="work-title">Furniture</h3>
+                        <!-- <a href="#" class="stretched-link"></a> -->
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+          
+                  <div class="col-md-6 mb-4">
+                    <a href="https://foste11.netlify.app">
+                    <div class="card work-card">
+                      <img src="/can/foste.png" class="card-img-top img-fluid" alt="The White Lamp">
+                      <div class="card-body">
+                        <p class="work-type">Website</p>
+                        <h3 class="work-title">Business Consultation</h3>
+                        <!-- <a href="#" class="stretched-link"></a> -->
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <a href="https://jade11.netlify.app">
+                    <div class="card work-card">
+                      <img src="/can/creativeness.png" class="card-img-top img-fluid" alt="The White Lamp">
+                      <div class="card-body">
+                        <p class="work-type">Website</p>
+                        <h3 class="work-title">Modeling</h3>
+                        <!-- <a href="#" class="stretched-link"></a> -->
+                      </div>
+                    </a>
                     </div>
                   </div>
                   <div class="button text-center">
-                    <a href="https://www.instagram.com/justdavid01/profilecard/?igsh=dDR0OHBidjlvY25s" class="text-center btn design btn-sm w-25">See More</a>
+                    <a href="/html/portfolio.html" class="text-center btn design btn-sm w-25">See More</a>
                   </div>
                 </div>
               </div>
@@ -312,7 +607,7 @@
                                       <img src="/asset/person (1).jpg" style="width: 65px; border: 7px solid #e28413;" alt="Profile Picture" class="rounded-circle mr-3">
                                       <div>
                                           <h6 class="mb-0">John Smith</h6>
-                                          <small class="text-muted">CEO, Luis Jfx</small>
+                                          <!-- <small class="text-muted">CEO, Luis Jfx</small> -->
                                       </div>
                                   </div>
                               </div>
@@ -326,7 +621,7 @@
                                       <img src="/asset/person (2).jpg" style="width: 65px; border: 7px solid #e28413;" alt="Profile Picture" class="rounded-circle mr-3">
                                       <div>
                                           <h6 class="mb-0">Daniel Stones</h6>
-                                          <small class="text-muted">CEO, OG clothings</small>
+                                          <!-- <small class="text-muted">CEO, OG clothings</small> -->
                                       </div>
                                   </div>
                               </div>
@@ -335,12 +630,12 @@
                       <div class="col-md-4 mb-4">
                           <div class="card">
                               <div class="card-body">
-                                  <p class="card-text">"I was initially skeptical about outsourcing our web development, but David exceeded all expectations. Their technical skills and attention to detail were top-notch. I'm thrilled with the final product."</p>
+                                  <p class="card-text">"I was initially skeptical about outsourcing our web development, but David exceeded all expectations. Their technical skills and attention to detail were top-notch. I'm thrilled with the final product and I'll definitely continue working with you."</p>
                                   <div class="d-flex align-items-center mt-3 gap-3">
                                       <img src="/asset/person (3).jpg" style="width: 65px; border: 7px solid #e28413;" alt="Profile Picture" class="rounded-circle mr-3">
                                       <div>
                                           <h6 class="mb-0">Tim Cook</h6>
-                                          <small class="text-muted">CEO, Greater Heights Ltd</small>
+                                          <!-- <small class="text-muted">CEO, Greater Heights Ltd</small> -->
                                       </div>
                                   </div>
                               </div>
@@ -427,40 +722,107 @@
                 </div>
               </div>
             </section>
+
+            <section>
+              <div class="container-fluid py-5 blog">
+                <div class="blog-heading text-center">
+                  <h2 class="fs-1 fw-bold">Lastest Blogs</h2>
+                  <p>Transform your dev journey from beginner to professional with our tech blogs</p>
+                </div>
+                <div class="container my-5">
+                  <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-6">
+                      <a href="/html/Blog/top-7-web-design-trends.html">
+                      <div class="card blog-card h-100">
+                        <img src="/asset/blogg5.png" class="card-img-top" alt="Graphic Tips">
+                        <div class="card-body">
+                          <p class="card-category">Design / Jan 12, <span id="currentYear">2025</span></p>
+                          <h5 class="card-title">Top 7 Web Design  Trends for <span id="currentYear">2025</span>: Stay Ahead of the Curve</h5>
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6">
+                      <a href="/html/Blog/the-basis-of-responsive-design.html">
+                      <div class="card blog-card h-100">
+                        <img src="/asset/blogg (3).jpg" class="card-img-top" alt="Branding Tips">
+                        <div class="card-body">
+                          <p class="card-category">Design / Jan 14, <span id="currentYear">2025</span></p>
+                          <h5 class="card-title">The Basics of Responsive Web Design: Why It's Non-Negotiable in <span id="currentYear">2025</span> </h5>
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-6">
+                      <a href="/html/Blog/Daily-coding-tutotrials.html">
+                      <div class="card blog-card h-100">
+                        <img src="/asset/blogg (1).jpg" class="card-img-top" alt="Top Designs">
+                        <div class="card-body">
+                          <p class="card-category">Design / Jan 17, <span id="currentYear">2025</span></p>
+                          <h5 class="card-title">Daily Coding Tutorials: Learn Web Development One Day At a Time!</h5>
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-6">
+                      <a href="/html/Blog//from-ideas-to-launch.html">
+                      <div class="card blog-card h-100">
+                        <img src="/asset/blogg (4).jpg" class="card-img-top" alt="Watercolor Design">
+                        <div class="card-body">
+                          <p class="card-category">Design / Jan 20, <span id="currentYear">2025</span></p>
+                          <h5 class="card-title">From Idea to Launch: My Web Design Process Explained</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="blog-seo text-center">
+                  <a href="/html/Blog/blog-main.html">
+                    <button class="btn-12"><span>Blogs</span></button>
+                    </a>
+                </div>
+              </div>
+            </section>
             
 
           <section id="contact-1">
             <div class="container contact-form">
               <div class="row">
-                  <div class="col-md-6 contact-info">
+                  <div class="col-md-6">
+                    <div class="contact-information mx-lg-5">
                       <h4>Quick Contact</h4>
                       <h1 class="text-dark">Leave a Message</h1>
                       <p class="text-dark">Need assistance? Have a question? Leave us a message, and we'll get back to you as soon as possible.</p>
+                    </div>
                   </div>
                   <div class="col-md-6">
                       <form>
                           <div class="form-group mb-3">
-                              <input type="text" class="form-control rounded-input" id="name" placeholder="your name" required>
+                              <input type="text" class="form-control rounded-input" id="name" placeholder="Name" required>
                           </div>
                           <div class="form-group mb-3">
-                              <input type="email" class="form-control rounded-input" id="email" placeholder="your email">
+                              <input type="email" class="form-control rounded-input" id="email" placeholder="Email">
                           </div>
                           <div class="form-group mb-3">
                             <input type="text" class="form-control rounded-input" id="subject" placeholder="Subject">
                           </div>
                           <div class="form-group mb-3">
-                            <select class="form-select rounded-input" id="reason" placeholder="Select reason"  required>
-                              <option value="" disabled selected>Select a reason</option>
-                              <option value="inquiry">General Inquiry</option>
-                              <option value="design">Website Design</option>
-                              <option value="development">Website Development</option>
-                              <option value="feedback">Feedback</option>
-                              <option value="collaboration">Collaboration</option>
-                              <option value="other">Other</option>
+                            <select class="form-select rounded-input" id="reason" placeholder="Services"  required>
+                              <option>Web development</option>
+                              <option>Graphic design</option>
+                              <option>Web design</option>
+                              <option>SEO</option>
+                              <option>Collaboration</option>
+                              <option>Other</option>
                             </select>
                           </div>
                           <div class="form-group mb-3">
-                              <textarea class="form-control rounded-input" id="message" rows="4" placeholder="your message"></textarea>
+                              <textarea class="form-control rounded-input" id="message" rows="4" placeholder="Message"></textarea>
                           </div>
                           <button type="submit" class="btn btn-dark rounded-button design w-100">SUBMIT</button>
                       </form>
@@ -468,44 +830,137 @@
               </div>
           </div>      
           </section>
-
-            <section id="contact" class="get-in-touch py-5">
-              <div class="container">
-                <div class="row justify-content-around"> 
-                  <div class="col-lg-4">
-                        <h2 class="section-title">Get In Touch.</h2>
-                          <p class="contact-description">
-                            Ready to bring your vision to life? Let's connect and discuss your project. Whether you need a stunning website, a powerful mobile app, or a captivating brand identity, we're here to help.
-                          </p>
-                      </div>
-                      <div class="col-lg-2">
-                          <h5>Follow Me</h5>
-                          <ul class="social-links list-unstyled">
-                              <li><a href="https://www.facebook.com/profile.php?id=100086701681128" class="text-dark" style="text-decoration: none;"><i class='bx bxl-facebook'></i>Facebook</a></li>
-                              <li><a href="https://x.com/sanidavid007?t=YM-BJlW6ht8Zo2YalB0qMg&s=09" class="text-dark" style="text-decoration: none;"><i class='bx bxl-twitter' ></i>Twitter</a></li>
-                              <li><a href="https://www.instagram.com/justdavid01/profilecard/?igsh=dDR0OHBidjlvY25s" class="text-dark" style="text-decoration: none;"><i class='bx bxl-instagram-alt' ></i>Instagram</a></li>
-                              <li><a href="https://www.linkedin.com/in/david-sani-851941239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-dark" style="text-decoration: none;"><i class='bx bxl-linkedin' ></i>LinkedIn</a></li>
-                              <li><a href="https://www.youtube.com/channel/UClcQRMDz5p8t97NkcqhMhCA" class="text-dark" style="text-decoration: none;"><i class='bx bxl-youtube' ></i>Youtube</a></li>
-                              <li><a href="https://pin.it/5Sxp6hjSl" class="text-dark" style="text-decoration: none;"><i class='bx bxl-pinterest' ></i>Pinterest</a></li>
-                              <li><a href="https://wa.link/aojsqz" class="text-dark" style="text-decoration: none;"><i class='bx bxl-whatsapp' ></i>Whatsapp</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-lg-2">
-                          <h5>Contact Me</h5>
-                          <p class="contact-info">justdavid090@gmail.com</p>
-                          <p class="contact-info">+234 9039 977 439</p>
-                      </div>
-                  </div>
+          <footer class="footer text-dark pt-5">
+            <div class="container">
+              <div class="row">
+                <!-- About Us -->
+                <div class="col-md-3 mb-4">
+                  <h5 class="fw-bold mb-3">About Us</h5>
+                  <p class="small">
+                    We are a creative agency that offers digital solutions for
+                    businesses that want to impact the digital age, build awareness of
+                    their products or services, and increase their business income. We
+                    are specialized in Web Design, App Development, SEO, Branding,
+                    Digital Marketing.
+                  </p>
+                </div>
+          
+                <!-- Contact Us -->
+                <div class="col-md-3 mb-4">
+                  <h5 class="fw-bold mb-3">Contact Us</h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <i class='bx bx-phone' style="color: #e67e22;"></i> +234 903 9977 439
+                    </li>
+                    <li class="mb-2">
+                      <i class='bx bx-envelope' style="color: #e67e22;"></i>
+                      justdavid090@gmail.com
+                    </li>
+                    <li>
+                      <i class='bx bx-current-location' style="color: #e67e22;"></i> Abuja, Nigeria
+                    </li>
+                  </ul>
+                </div>
+          
+                <!-- Hours of Operation -->
+                <div class="col-md-3 mb-4">
+                  <h5 class="fw-bold mb-3">Hours of Operation</h5>
+                  <p class="small">
+                    Monday to Friday<br />
+                    <strong>8:30 AM – 6 PM</strong>
+                  </p>
+                  <p class="small">
+                    Saturday to Sunday<br />
+                    <strong>9:30 AM – 6 PM</strong>
+                  </p>
+                </div>
+          
+                <!-- Policy -->
+                <div class="col-md-3 mb-4">
+                  <h5 class="fw-bold mb-3">Policy</h5>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="bi bi-dot text-red"></i> Terms and Conditions
+                    </li>
+                    <li>
+                      <i class="bi bi-dot text-red"></i> Privacy Policy
+                    </li>
+                  </ul>
+                </div>
               </div>
-          </section>
-       
-          <footer>
-            <div class="container-fluid footer-body text-center">
-              <div class="footer">
-                <p>Copyright &copy; <span id="currentYear"></span>. All Rights Reserved.</p>
+          
+              <div class="row">
+                <!-- Bottom Links -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold text-uppercase">Web & App Development</h6>
+                  <ul class="list-unstyled">
+                    <li><img src="/asset/icons8-dot-16.png"> Mobile APP development</li>
+                    <li><img src="/asset/icons8-dot-16.png"> Business website</li>
+                    <li><img src="/asset/icons8-dot-16.png"> e-Commerce website</li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <h6 class="fw-bold text-uppercase">SEO Services</h6>
+                  <ul class="list-unstyled">
+                    <li><img src="/asset/icons8-dot-16.png"> SEO services</li>
+                    <li><img src="/asset/icons8-dot-16.png"> Local SEO services</li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <h6 class="fw-bold text-uppercase">Digital Advertising</h6>
+                  <ul class="list-unstyled">
+                    <li><img src="/asset/icons8-dot-16.png"> Digital Marketing</li>
+                    <li><img src="/asset/icons8-dot-16.png"> Social Media Management</li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <h6 class="fw-bold text-uppercase">Other Links</h6>
+                  <ul class="list-unstyled">
+                    <li><img src="/asset/icons8-dot-16.png"> Website Design Trinidad</li>
+                    <li><img src="/asset/icons8-dot-16.png"> eCommerce Website Trinidad</li>
+                    <li><img src="/asset/icons8-dot-16.png"> Mobile App Development</li>
+                  </ul>
+                </div>
+              </div>
+          
+            <hr class="text-white">
+            <div class="container d-flex align-items-center justify-content-between last">
+              <div class="copyright">
+                  <p class="fs-6">@ <span id="currentYear">2024</span> All Rights Reserved By Justdavid</p>
+              </div>
+              <br>
+              <div class="contact-info mt-5" style="font-family: monospace;">
+                  <h5 class="fw-bold">Follow Us </h5>
+                  <div class="social-icons mt-4">
+                    <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-youtube'></i></a>
+                    <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#" class="me-2 text-white fs-3"><i class="fa-brands fa-x-twitter" style="color: white;"></i></a>
+                    <a href="#" class="me-2 text-white fs-3" style="color: white !important;"><i class='bx bxl-tiktok' ></i></a>
+                    <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-github' ></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
+          </div>
           </footer>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6781aa62af5bfec1dbe9f5d0/1ih9834o8';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
     <script src="/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   

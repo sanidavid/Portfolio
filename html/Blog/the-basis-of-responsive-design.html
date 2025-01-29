@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid">
+      <img class="ms-lg-5 logo-main" src="/asset/logo.png" width="60px">
+      
+      <!-- Toggle button for small screens -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Offcanvas menu, only visible on smaller screens -->
+      <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav gap-5 d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="/html/index.html"><img src="/asset/icons8-home-24.png">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/services.html"><img src="/asset/icons8-service-24.png"> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/about.html"><img src="/asset/icons8-about-24.png"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/designs.html"><img src="/asset/icons8-portfolio-24.png"> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#client"><img src="/asset/icons8-testimony-24.png"> Testimonies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#faq"><img src="/asset/icons8-faq-24.png"> FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/Blog/blog-main.html"><img src="/asset/icons8-faq-24.png"> Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/html/contact.html"><img src="/asset/icons8-contact-24.png"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Navbar links for larger screens, original collapse behavior retained -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class=" logo" src="/asset/logo.png" width="60px">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#client">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/Blog/blog-main.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+      
+      <!-- Navbar links for larger screens, original collapse behavior retained -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-5 d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/html/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#servicess">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/designs.html">Portfolio</a>
+          </li>
+          <li>
+            <img class=" logo" src="/asset/logo.png" width="60px">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#client">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#faq">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/html/contact.html">Contact</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="padding-top: 120px;">
+    <div class="blog-title">
+      <h3 class="fw-bold fs-1">THE BASICS OF RESPONSIVE WEB DESIGN: WHY IT'S NON-NEGOTIABLE IN 2025</h3>
+      <p style="font-weight: 600;">Website</p>
+      <p style="font-weight: 600;">by Justdavid090@gmail.com</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+          <p>In 2025, the need for responsive web design is more critical than ever. With a diverse range of devices and screen sizes in constant use, a responsive website is no longer optional, it’s essential for businesses, creators, and anyone looking to make an impact online. Let’s delve into the basics of responsive web design and why it’s a must-have in 2025.</p>
+
+          <h3>1. What Is Responsive Web Design?</h3>
+          <p>Responsive web design ensures that a website looks and functions seamlessly across all devices, from smartphones and tablets to laptops and desktops. By using flexible layouts, media queries, and adaptive images, responsive design creates a consistent user experience regardless of screen size or resolution.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Flexible Grid Layouts:</strong> A design approach that adjusts the page layout dynamically based on the screen size.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Adaptive Images:</strong> Images are scaled or cropped to fit perfectly within their containers, ensuring no visual compromises.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Media Queries:</strong> CSS rules that allow developers to apply styles specific to different devices or screen dimensions.</p>
+          <h5>Why It Matters:</h5>
+          <p>With mobile traffic accounting for over 60% of all internet usage in 2025, responsive web design ensures accessibility, usability, and engagement, regardless of the user’s device.</p>
+          <!-- SECOND -->
+          <h3>2. Mobile-First Approach</h3>
+          <p>A mobile-first approach means designing for smaller screens first and then scaling up for larger devices. This ensures that your website’s core functionality and content remain accessible to the widest audience.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>prioritize Essential Content:</strong> Keep content concise and user-focused.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Streamlined Navigation:</strong> Ensure menus and buttons are easy to use on small screens.</p>
+          <h5>Why It Matters:</h5>
+          <p>Most users access websites on mobile devices, and a mobile-first approach guarantees a positive first impression.</p>
+          <!-- THIRD -->
+          <h3>3. Benefits of Responsive Design</h3>
+          <p>The advantages of responsive web design go far beyond aesthetics. It directly impacts user satisfaction, search engine rankings, and overall business success.
+          </p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Improved SEO:</strong> Search engines prioritize responsive websites, leading to better rankings and visibility.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Enhanced User Experience:</strong> Users enjoy seamless navigation and consistent performance across devices.
+          </p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Cost-Effectiveness:</strong> A single responsive site eliminates the need for multiple versions or apps, saving time and resources.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>It keeps images from being larger than the screen width, and prevents visitors on mobile devices from needing to do extra work to read your content.
+          </p>
+          <!-- FOURTH -->
+          <h3>4. Using Modern Frameworks</h3>
+          <p>Frameworks like Bootstrap and Tailwind CSS are powerful tools for implementing responsive design.
+          </p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Prebuilt Components:</strong> Frameworks include ready-made grids and design elements.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Time-Saving</strong> Simplifies the coding process and ensures compatibility across devices.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>Leveraging frameworks allows developers to build responsive sites quickly without compromising quality.
+          </p>
+          <!-- FIFTH -->
+          <h3>5. The Role of Speed in Responsive Design</h3>
+          <p>A responsive site must also be fast. Optimizing load times is critical for both user satisfaction and SEO.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Compress Images:</strong> Use modern formats like WebP to reduce file size without sacrificing quality.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Minimize Code:</strong> Remove unnecessary CSS and JavaScript for faster performance.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>Slow loading sites frustrate users and lead to higher bounce rates.</p>
+          <!-- SIXTH -->
+          <h3>6. Testing Across Devices</h3>
+          <p>Testing ensures your site performs well on a variety of devices and screen sizes.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Browser Testing:</strong> Check compatibility across major browsers like Chrome, Safari, and Firefox.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Device Emulators:</strong> Use emulators or physical devices to simulate real-world conditions.</p>
+          <h5>Why It Matters:</h5>
+          <p>Thorough testing prevents users from encountering bugs or issues that could hurt your credibility.</p>
+          <!-- SEVENTH -->
+          <h3>7. Continuous Improvement</h3>
+          <p>The digital landscape is constantly evolving, so regular updates and improvements are essential to keep your site responsive and relevant.</p>
+          <h5>Key Features:</h5>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Monitor Analytics:</strong> Use tools like Google Analytics to track device usage and optimize accordingly.</p>
+          <p><img src="/asset/icons8-dot-20.png" class="mb-1"><strong>Stay Updated:</strong> Keep up with trends and advancements in responsive design technologies.
+          </p>
+          <h5>Why It Matters:</h5>
+          <p>A proactive approach ensures your website stays competitive and meets user expectations in the long term.
+          </p>
+
+          <div class="container text-center py-4" style="margin: auto !important;">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/top-7-web-design-trends.html">Previous</a>
+                </li>
+                <li class="page-item ">
+                  <a class="page-link text-dark" href="/html/Blog/top-7-web-design-trends.html">1</a>
+                </li>
+                <li class="page-item" aria-current="page">
+                  <a class="page-link text-dark pagination-color" href="/html/Blog/the-basis-of-responsive-design.html">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/Daily-coding-tutotrials.html">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/from-ideas-to-launch.html">4</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/how-to-choose-the-right-color.html">5</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/mastering-the-art-of-typography.html">6</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/the-ultimate-guide-to-building-websites.html">7</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/common-web-development-mistakes.html">8</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-dark" href="/html/Blog/Daily-coding-tutotrials.html">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>     
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-right">
+          <h4 class="mb-3 fw-bold">More Valuable Resources</h4>
+
+          <a href="#">
+            <img src="/asset/blogg (1).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+              <p class="fw-bold text-dark">Daily Coding Tutorials: Learn Web Development One Day At a Time!</p>
+              <p class="fw-light blog-date text-dark">Design / Jan 17, <span id="currentYear">2025</span></p>
+            </a>
+    
+            <a href="#">
+          <img src="/asset/blogg (4).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">From Idea to Launch: My Web Design Process Explained</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 20, <span id="currentYear">2025</span></p>
+          </a>
+            
+            <a href="#">
+            <img src="/asset/blogg(new) (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">How To Choose The Right Color Palette For Your Website</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 24, <span id="currentYear">2025</span></p>
+          </a>
+     
+            <a href="#">
+          <img src="/asset/blogg(new) (1).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">Mastering The Art Of Typography In Web Design</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 26, <span id="currentYear">2025</p>
+            </a>
+          
+            <a href="#">
+          <img src="/asset/blogg (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+            <p class="fw-bold text-dark">The Ultimate Guide in Building Websites</p>
+            <p class="fw-light blog-date text-dark">Design / Jan 29, <span id="currentYear">2025</span></p>
+          </a>
+
+          <a href="/html/Blog/common-web-development-mistakes.html">
+            <img src="/asset/blogg (2).jpg" style="height: auto; width: 100%; border-radius: 12px;">
+              <p class="fw-bold text-dark">Common Web Development Mistake And How To Avoid Them</p>
+              <p class="fw-light blog-date text-dark">Design / Jan 29, <span id="currentYear">2025</span></p>
+            </a>
+
+          <a href="/html/Blog/top-7-web-design-trends.html">
+            <img src="/asset/blogg5.png" style="height: auto; width: 100%; border-radius: 12px;">
+                    <p class="fw-bold text-dark">Top 7 Web Design Trends for <span id="currentYear">2025</span>: Stay Ahead of the Curve</p>
+                    <p class="fw-light blog-date text-dark">Design / Jan 12, <span id="currentYear">2025</span></p>
+                  </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer text-dark pt-5">
+    <div class="container">
+      <div class="row">
+        <!-- About Us -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">About Us</h5>
+          <p class="small">
+            We are a creative agency that offers digital solutions for
+            businesses that want to impact the digital age, build awareness of
+            their products or services, and increase their business income. We
+            are specialized in Web Design, App Development, SEO, Branding,
+            Digital Marketing.
+          </p>
+        </div>
+  
+        <!-- Contact Us -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class='bx bx-phone' style="color: #e67e22;"></i> +234 903 9977 439
+            </li>
+            <li class="mb-2">
+              <i class='bx bx-envelope' style="color: #e67e22;"></i>
+              justdavid090@gmail.com
+            </li>
+            <li>
+              <i class='bx bx-current-location' style="color: #e67e22;"></i> Abuja, Nigeria
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Hours of Operation -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Hours of Operation</h5>
+          <p class="small">
+            Monday to Friday<br />
+            <strong>8:30 AM – 6 PM</strong>
+          </p>
+          <p class="small">
+            Saturday to Sunday<br />
+            <strong>9:30 AM – 6 PM</strong>
+          </p>
+        </div>
+  
+        <!-- Policy -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Policy</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-dot text-red"></i> Terms and Conditions
+            </li>
+            <li>
+              <i class="bi bi-dot text-red"></i> Privacy Policy
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Bottom Links -->
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Web & App Development</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Mobile APP development</li>
+            <li><img src="/asset/icons8-dot-16.png"> Business website</li>
+            <li><img src="/asset/icons8-dot-16.png"> e-Commerce website</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">SEO Services</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> SEO services</li>
+            <li><img src="/asset/icons8-dot-16.png"> Local SEO services</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Digital Advertising</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Digital Marketing</li>
+            <li><img src="/asset/icons8-dot-16.png"> Social Media Management</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3">
+          <h6 class="fw-bold text-uppercase">Other Links</h6>
+          <ul class="list-unstyled">
+            <li><img src="/asset/icons8-dot-16.png"> Website Design Trinidad</li>
+            <li><img src="/asset/icons8-dot-16.png"> eCommerce Website Trinidad</li>
+            <li><img src="/asset/icons8-dot-16.png"> Mobile App Development</li>
+          </ul>
+        </div>
+      </div>
+  
+      <hr class="text-white">
+      <div class="container d-flex align-items-center justify-content-between last">
+        <div class="copyright">
+            <p class="fs-6">@ <span id="currentYear">2024</span> All Rights Reserved By Justdavid</p>
+        </div>
+        <br>
+        <div class="contact-info mt-5" style="font-family: monospace;">
+            <h5 class="fw-bold">Follow Us </h5>
+            <div class="social-icons mt-4">
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-youtube'></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-instagram-alt' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class="fa-brands fa-x-twitter" style="color: white;"></i></a>
+              <a href="#" class="me-2 text-white fs-3" style="color: white !important;"><i class='bx bxl-tiktok' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-linkedin' ></i></a>
+              <a href="#" class="me-2 text-white fs-3"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6781aa62af5bfec1dbe9f5d0/1ih9834o8';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<script src="/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
